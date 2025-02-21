@@ -1,0 +1,49 @@
+body {
+  background: linear-gradient(to right, #36d1dc, #c4c9d4);
+  color: white;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.task-section {
+  font-size: 18px;
+  padding: 15px;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+}
+
+.task-section:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.completed {
+  display: none;
+}
+
+.btn {
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border: none;
+}
+
+.btn-warning {
+  background-color: #ffc107;
+  border: none;
+}
+
+
+  
+
+  
+  

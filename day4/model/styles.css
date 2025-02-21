@@ -1,0 +1,15 @@
+body {
+    background: linear-gradient(to right, #e7e4e5, #e2a2bd);
+    color: white;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.modal-content {
+    background: rgba(255, 255, 255, 0.9);
+    color: black;
+    border-radius: 10px;
+}
+.backgroung{
+    background-image: url(https://slidescorner.com/wp-content/uploads/2024/0…und-Organic-Shapes-Stars-by-SlidesCorner.com_.jpg);
+}

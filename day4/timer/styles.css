@@ -1,0 +1,30 @@
+body {
+    background: url(https://studywithme.io/aesthetic-pomodoro-timer/c629a813b3561cfa40dd.jpg
+    ) no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background: rgba(190, 178, 178, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    width: 350px;
+}
+
+.timer-display {
+    font-size: 3rem;
+    font-weight: bold;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+
+}
