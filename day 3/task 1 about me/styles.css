@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #67635e;
+    color: #333;
+}
+
+h2, h3 {
+    color: #007bff;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+.container {
+    background-color: rgb(184, 150, 120);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-image:url(https://th.bing.com/th/id/OIP.CmKaw9XeMQxPxMMl0h1psgHaE8?rs=1&pid=ImgDetMain);
+    height:cover;
+}

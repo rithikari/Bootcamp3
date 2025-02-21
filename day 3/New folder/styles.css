@@ -1,0 +1,116 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px 0;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+header nav ul li {
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+header nav ul li a:hover {
+    color: #e74c3c;
+}
+
+
+.showcase {
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.showcase h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #2c3e50;
+}
+
+.cake-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.cake-card {
+    background-color: #ecf0f1;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 30%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.cake-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.cake-card h3 {
+    font-size: 1.5rem;
+    color: #2c3e50;
+}
+
+.cake-card p {
+    font-size: 1rem;
+    color: #7f8c8d;
+    margin-bottom: 15px;
+}
+
+.cake-card span {
+    font-size: 1.2rem;
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+.cake-card:hover {
+    transform: translateY(-10px);
+}
+
+
+footer {
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 1rem;
+}
